@@ -1,0 +1,15 @@
+acc inc or dec by the ACCUMULATOR value
+    then goes next below
+
+jmp jumps lines
+    jmp +1 goes to the next below
+    jmp -20 goes 20 above
+nop is none, libe below goes next
+
+
+
+mistakes:
+    not parsing out string to int
+    thought the thing was supposed to continue like normal, not run an additional(17 something)
+    thought the thing was supposed to continue like normal and run the next intruction and end, but actually it was supposed to run the second to last in the file(1747 too high, )(and 1727 just wrong)
+    painstakingly realized it wanted to exit after the last instruction in the file or whatever, not just the last instruction before a loop LOL 
